@@ -1,0 +1,54 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+.logo{
+  height: 900%;
+}
+
+.container{
+  height: 90vh;
+}
+
+.login{ 
+  position: absolute;
+  top: 30%;
+  transform: translateY(-20%) translateX(50%);
+  width: 50%;
+  height: 400px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.register{ 
+  position: absolute;
+  top: 30%;
+  transform: translateY(-25%) translateX(50%);
+  width: 50%;
+  height: 550px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.heading{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+#emailHelp{
+  font-size: 10px;
+}
+
+.formstyles{
+  color: #1A1E43;
+  font-size: 13px;
+}
+
+a{
+  cursor: pointer;
+}

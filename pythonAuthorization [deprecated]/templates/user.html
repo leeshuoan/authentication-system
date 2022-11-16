@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %} Welcome xxxx {% endblock %}
+{% block content %}
+<body class="text-center" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('profile')}}">Profile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+	<div class="container w-50 mt-5">
+        test page - should be integrated with other app!
+        <a class="btn btn-primary" href="{{url_for('logout')}}"> log out</a>
+	</div>
+</body>
+{% endblock %}

@@ -1,0 +1,33 @@
+####============ Authentication ============+####
+authentication/HELP.md
+authentication/target/
+authentication/!.mvn/wrapper/maven-wrapper.jar
+authentication/!**/src/main/**/target/
+authentication/!**/src/test/**/target/
+
+####============ Authorization ============+####
+pythonAuthorization/config.json
+pythonAuthorization/venv
+pythonAuthorization/flask_session
+pythonAuthorization/__pycache__
+
+### STS ###
+authentication/.apt_generated
+authentication/.classpath
+authentication/.factorypath
+authentication/.project
+authentication/.settings
+authentication/.springBeans
+authentication/.sts4-cache
+####============ end Authentication ============+####
+
+### VS Code ###
+.vscode/
+.DS_Store
+test/.env
+
+### Secrets ###
+/frontend-app/.env
+/frontend-app/.env.production
+/server/src/main/resources/application.properties
+/server/src/main/resources/static

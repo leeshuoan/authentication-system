@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %} Ascendas Login {% endblock %}
+{% block content %}
+<body class="text-center" >
+
+	<div class="container w-50 mt-5">
+		<form class="p-3">
+			<img class="mb-4" src="static/Ascenda.png" alt="" >
+			<h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+			<div class="form-floating m-3">
+				<input type="email" class="form-control" id="userEmail" placeholder="Email Address">
+				<label for="email">Email address</label>
+			</div>
+			<div class="form-floating m-3">
+				<input type="password" class="form-control" id="userPassword" placeholder="Password">
+				<label for="userPassword">Password</label>
+			</div>
+<!-- 
+			<div class="checkbox mb-3">
+				<label>
+					<input type="checkbox" value="remember-me"> Remember me
+				</label>
+			</div> -->
+			<div class="p-3">
+				<button class="w-100 btn btn-lg btn-primary mb-3" type="submit">Sign in</button>
+				<a class="w-100 btn btn-lg btn-primary " href="{{url_for('login')}}">Sign in with SSO</a>
+			</div>
+			<p class="mt-5 mb-3 text-muted">G2T8</p>
+		</form>
+		{% if error_description != "" %}
+			<div class="alert alert-danger" role="alert">
+				{{error_description}}
+			</div>
+		{% endif %}
+	</div>
+</body>
+{% endblock %}
