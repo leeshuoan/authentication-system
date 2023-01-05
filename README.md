@@ -1,4 +1,4 @@
-# ITSA G2 T8
+# ITSA G2 T8 [Project Grade: A+]
 ## Background
 Authentication service with the following features
 1. Enrolment service that lets customers enrol and also verifies ownership of accounts
